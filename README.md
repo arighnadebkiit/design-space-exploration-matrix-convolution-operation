@@ -1,5 +1,11 @@
 # design-space-exploration-matrix-convolution-operation
+
+The paper can be found in this link 
+
+https://www.worldscientific.com/doi/abs/10.1142/S0218126621502881
+
 citation for the paper is as follows:
+
 @article{behera2021design,
   title={Design Space Exploration of Matrix--Matrix Convolution Operation},
   author={Behera, Piyalee and Deb, Arighna},
