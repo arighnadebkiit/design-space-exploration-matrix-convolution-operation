@@ -1,7 +1,7 @@
-// AMSG for Kirsch east kernel
+// AMSG for Kirsch north kernel
 
-module AMSG_kirsch_e(
-  input [7:0] p1, p2, p3, p4, p6, p7, p8, p9,
+module AMSG_kirsch_n(
+input [7:0] p1, p2, p3, p4, p6, p7, p8, p9,
   output reg [7:0] y1
     );
     wire [15:0] ys1;
@@ -9,10 +9,10 @@ module AMSG_kirsch_e(
     wire [15:0] m1, m2;
     
     assign n1 = p1 + p2;
-    assign n2 = p3 + p4;
+    assign n2 = p7 + p8;
     assign n3 = n1 + n2;
-	assign n4 = n3 + p6;
-	assign n5 = p7 + p8;
+	assign n4 = n3 + p4;
+	assign n5 = p3 + p6;
 	assign n6 = n5 + p9;
 	assign m1 = 5 * n6;
     assign m2 = 3 * n4;
